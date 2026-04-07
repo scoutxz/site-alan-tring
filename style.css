@@ -1,0 +1,59 @@
+ body {
+            background-color: orange;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ===== Cabeçalho ===== */
+        header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== Seções ===== */
+        section {
+            background-color: black;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            margin: 15px 0;
+        }
+
+        /* ===== Rodapé ===== */
+        footer {
+            background-color: gray;
+            text-align: center;
+            padding: 10px;
+        }
